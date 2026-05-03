@@ -908,6 +908,6 @@ print('Callbacks registered')
 # In[9]:
 
 
-print('Starting → http://127.0.0.1:8049')
-app.run(debug=False, port=8049, jupyter_mode='tab')
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port=10000)
 
