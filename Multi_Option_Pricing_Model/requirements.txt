@@ -10,3 +10,4 @@ python-dotenv>=1.0.0
 nbformat>=5.9.0
 jupyter>=1.0.0
 gunicorn>=21.2.0
+gunicorn>=21.2.0
